@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+            var playerWel = prompt("Welcome, to this sci-fy, fantasy quest. What can we call you?");
+            alert(playerWel + " nice to meet you.");
+        var playerWhat = prompt(playerWel + " Would you say you are best known for your bravery, wit or helpfulness?");
+        if (playerWhat == "bravery"){
+            var playerWeak = prompt(playerWel + ", what would you say your greatest weakness is, your shoot first ask questions later attitude, or your ask questions shoot later attitude ?");
+        }else if (playerWhat == "wit" ) {
+            var playerWeak = prompt(playerWel + ", what would you say your greatest weakness is, your shoot first ask questions later attitude, or your ask questions shoot later attitude ?");
+        }else{
+            var playerWeak = prompt(playerWel + ", what would you say your greatest weakness is, your shoot first ask questions later attitude, or your ask questions shoot later attitude?");
+        }
+        if (playerWeak == playerWeak){
+            var playerStrength = prompt(playerWel + " when your at your greatest strength are you alone, or with friends, or being yourself?");
+        }
+        if (playerStrength == "alone "){
+           
+            var playerHouse = prompt("If you were to be at Hogwarts, what house would you be in, Gryffindor, Ravenclaw, Hufflepuff, or Slytherin?.");
+        }else if(playerStrength == "friends"){
+            var playerHouse = prompt("If you were to be at Hogwarts, what house would you be in, Gryffindor, Ravenclaw, Hufflepuff, or Slytherin?");
+        }else{
+            var playerHouse = prompt("If you were to be at Hogwarts, what house would you be in, Gryffindor, Ravenclaw, Hufflepuff, or Slytherin?");
+        }
+        if (playerHouse == "Gryffindor", playerHouse == "gryffindor"){
+            alert("You are in the spotlight with your bravery. we shall see how far we can take it.")
+            var playerBrave = prompt(playerWel + ", would you save someone from a burning house or let them die. Save or die?");
+        }else if(playerHouse == "Ravenclaw", playerHouse == "ravenclaw"){
+            alert("Bravery is within you we just need to bring it out.")
+             var playerBrave = prompt(playerWel + ", would you save someone from a burning house or let them die. Save or die?");
+        }else if(playerHouse == "Hufflepuff", playerHouse == "hufflepuff"){
+            alert("Such sweetness you have.");
+            alert("You must be brave to continue.");
+             var playerBrave = prompt(playerWel + ", would you save someone from a burning house or let them die. Save or die?");
+            }else{
+            alert("You are an evil one aren't you.");
+            alert("But are you brave?");
+             var playerBrave = prompt(playerWel + ", would you save someone from a burning house or let them die. Save or die?");
+        }
+        if ( playerBrave == "save them"){
+            alert("Very brave, " + playerWel );
+            var playerWeapon = prompt("If you needed a weapon and you had to choose between longsword and short sword, which would you choose?"); 
+        }else{
+          alert("YOU WOULD JUST LET SOMEONE DIE?????!!!!!"); 
+          alert("HOW COULD YOU??!!?");
+          alert("EVIL WRETCH");
+          alert("WE SHOULD BURN YOU AT THE STAKE");
+          alert("I'm sorry for yelling at you, I hope you accept this apolgie.");
+          var playerWeapon = prompt("If you needed a weapon and you had to choose between longsword and shortsword, which would you choose?"); 
+        }
+        if(playerWeapon == "longsword" ){
+            alert("a great deal of strength for this one, is needed to raise it above and swing it down.");
+            var playerFeat = prompt("Do you have a great feat of strength, yes or no?");
+        }else {
+            alert("A wise choice for fighting in close quarters.")
+            var playerFeat = prompt("Do you have a great feat of strength, yes or no?");
+        }
+        if (playerFeat == "yes"){
+            alert("you have a great deal of bravery in your heart, do you think you can complete the task at hand in your battle?");
+            var playerCon = prompt("Do you continue?");
+        }else{
+          alert("but a great feat of strength is needed for the task at hand it might be unwise to continue.");
+          var playerCon = prompt("Do you continue?");
+        }
+        if(playerCon == "yes"){
+            alert("There is a crossroads, do you go right to the forest, left towards the castle, fourthword towards the river, or home. this test will determine your determination to get to where you are going.");
+            var playerWay = prompt("fourthword, left, right, or home?");
+        }else{
+          alert("you have returned home.")
+          alert("the people in the village are angry.")
+          var playerReturn = prompt('would you like to make them proud?');
+          }
+          if(playerReturn == "yes"){
+              alert("You didn't want to be burned at the stake, so you returned to the quest.")
+                alert("There is a crossroads, do you go right to the forest, left towards the castle, fourthword towards the river, or home. this test will determine your determination to get to where you are going.");
+            var playerWay = prompt("fourthword, left, right, or home?");
+          }
+          if(playerWay == "fourthword"){
+            alert("you go towards the river");              
+              alert("your " + playerWeak + " attitude, should help you"); 
+          }else if(playerWay == "left"){
+            alert("you head towards the castle");
+             alert("your " + playerWeak + " attitude, should help you");
+          }else if(playerWay == "right"){
+              alert("you head towards the forest");
+              alert("your " + playerWeak + " attitude, should help you");
+          }else{
+            alert("you are going home");
+            alert("I am ashamed");
+          }
+        </script>
+    </body>
+</html>
